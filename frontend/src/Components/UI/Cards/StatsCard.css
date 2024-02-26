@@ -1,0 +1,45 @@
+/* .txt-shine {
+    
+    color: #FFFFFF;
+    background: linear-gradient(to left, rgb(49, 154, 199) 0%, #1B2231 30%, rgb(49, 154, 199) 100%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    50% {
+        background-position: 180px;
+    }
+
+   
+} */
+
+
+.txt-shine {
+    background-image: linear-gradient(140deg, #0E4366, #62C4EA, #0E4366, #62C4EA, #0E4366, #62C4EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: gradient 20s linear infinite;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 500%;
+    }
+}

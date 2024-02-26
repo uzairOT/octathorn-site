@@ -1,0 +1,33 @@
+/* StickyNavbar.css */
+#navbar {
+    overflow: hidden;
+    background-color: #F6F6F6;
+    z-index: 999;
+  }
+  /*
+  #navbar li {
+    float: left;
+    display: block;
+    color: #1B2231;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar li:hover {
+    background-color: #F6F6F6;
+    color: black;
+  }
+  
+  #navbar li.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  

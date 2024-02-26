@@ -1,0 +1,24 @@
+.css-h4y409-MuiList-root{
+    width:330px ;
+}
+.css-10hburv-MuiTypography-root{
+    /* color: #0E4366 !important;
+    font-family: 'Montserrat' !important;
+    font-size: 1.25rem !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+    text-transform: uppercase !important; */
+}
+
+.css-2fo3ek-MuiButtonBase-root-MuiListItem-root.Mui-selected {
+    background-color: #D9D9D938 !important;
+    padding: 0px !important;
+    ;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    flex:1 !important;
+}
+.myCarousel .carousel .slide {
+    height: 100%;
+}
